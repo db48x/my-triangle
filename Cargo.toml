@@ -1,0 +1,17 @@
+[package]
+name = "triangle"
+version = "0.0.1"
+authors = ["Corey Richardson", "db48x"]
+
+[[bin]]
+name = "triangle"
+path = "triangle.rs"
+
+[dependencies.hgl]
+git = "https://github.com/cmr/hgl-rs.git"
+
+[dependencies.glfw]
+git = "https://github.com/bjz/glfw-rs.git"
+
+[dependencies.cgmath-rs]
+git = "https://github.com/bjz/cgmath-rs.git"
